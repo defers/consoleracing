@@ -1,7 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="40a5480a-9703-4b29-829b-ad959b91ed31" name="Default Changelist" comment="" />
+    <list default="true" id="40a5480a-9703-4b29-829b-ad959b91ed31" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/defers/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/defers/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/domain/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/defers/domain/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/domain/Moveable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/defers/domain/Moveable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/domain/Race.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/defers/domain/Race.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/domain/Track.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/defers/domain/Track.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/domain/Transport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/defers/domain/Transport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/domain/TransportStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/defers/domain/TransportStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/domain/Truck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/defers/domain/Truck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/domain/CarTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/defers/domain/CarTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/domain/TrackTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/defers/domain/TrackTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/domain/TruckTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/defers/domain/TruckTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/defers/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/defers/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/domain/Car.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/domain/Moveable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/domain/Race.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/domain/Track.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/domain/Transport.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/domain/TransportStatus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/domain/Truck.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/domain/CarTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/domain/TruckTest.class" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +44,13 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="2KOtdCjYu21X3xDbOdqOPvJps3e" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
@@ -48,99 +77,101 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CarTest">
-    <configuration name="CarTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.TrackTest.getLength">
+    <configuration name="TrackTest.addTransportShouldThrowRuntimeExceptionWhenAlreadyContainsTransport" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="consoleracing" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="domain.*" />
+          <option name="PATTERN" value="com.defers.domain.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="domain" />
-      <option name="MAIN_CLASS_NAME" value="domain.CarTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CarTest.shouldReturnCarName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="consoleracing" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="domain.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="domain" />
-      <option name="MAIN_CLASS_NAME" value="domain.CarTest" />
-      <option name="METHOD_NAME" value="shouldReturnCarName" />
+      <option name="PACKAGE_NAME" value="com.defers.domain" />
+      <option name="MAIN_CLASS_NAME" value="com.defers.domain.TrackTest" />
+      <option name="METHOD_NAME" value="addTransportShouldThrowRuntimeExceptionWhenAlreadyContainsTransport" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CarTest.shouldReturnObjectWhenPassedAllArgConstructor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TrackTest.addTransport_ShouldAddTransport" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="consoleracing" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="domain.*" />
+          <option name="PATTERN" value="com.defers.domain.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="domain" />
-      <option name="MAIN_CLASS_NAME" value="domain.CarTest" />
-      <option name="METHOD_NAME" value="shouldReturnObjectWhenPassedAllArgConstructor" />
+      <option name="PACKAGE_NAME" value="com.defers.domain" />
+      <option name="MAIN_CLASS_NAME" value="com.defers.domain.TrackTest" />
+      <option name="METHOD_NAME" value="addTransport_ShouldAddTransport" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CarTest.shouldThrowRuntimeExceptionWhenPassengerNumberGreaterThen5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TrackTest.addTransport_ShouldThrowRuntimeException_WhenAlreadyContainsTransport" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="consoleracing" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="domain.*" />
+          <option name="PATTERN" value="com.defers.domain.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="domain" />
-      <option name="MAIN_CLASS_NAME" value="domain.CarTest" />
-      <option name="METHOD_NAME" value="shouldThrowRuntimeExceptionWhenPassengerNumberGreaterThen5" />
+      <option name="PACKAGE_NAME" value="com.defers.domain" />
+      <option name="MAIN_CLASS_NAME" value="com.defers.domain.TrackTest" />
+      <option name="METHOD_NAME" value="addTransport_ShouldThrowRuntimeException_WhenAlreadyContainsTransport" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TruckTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TrackTest.getLength" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="consoleracing" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="domain.*" />
+          <option name="PATTERN" value="com.defers.domain.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="domain" />
-      <option name="MAIN_CLASS_NAME" value="domain.TruckTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="com.defers.domain" />
+      <option name="MAIN_CLASS_NAME" value="com.defers.domain.TrackTest" />
+      <option name="METHOD_NAME" value="getLength" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TrackTest.getTransports" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="consoleracing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.defers.domain.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.defers.domain" />
+      <option name="MAIN_CLASS_NAME" value="com.defers.domain.TrackTest" />
+      <option name="METHOD_NAME" value="getTransports" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.CarTest.shouldReturnObjectWhenPassedAllArgConstructor" />
-      <item itemvalue="JUnit.CarTest.shouldReturnCarName" />
-      <item itemvalue="JUnit.CarTest.shouldThrowRuntimeExceptionWhenPassengerNumberGreaterThen5" />
-      <item itemvalue="JUnit.TruckTest" />
-      <item itemvalue="JUnit.CarTest" />
+      <item itemvalue="JUnit.TrackTest.addTransportShouldThrowRuntimeExceptionWhenAlreadyContainsTransport" />
+      <item itemvalue="JUnit.TrackTest.addTransport_ShouldAddTransport" />
+      <item itemvalue="JUnit.TrackTest.addTransport_ShouldThrowRuntimeException_WhenAlreadyContainsTransport" />
+      <item itemvalue="JUnit.TrackTest.getTransports" />
+      <item itemvalue="JUnit.TrackTest.getLength" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CarTest" />
-        <item itemvalue="JUnit.TruckTest" />
-        <item itemvalue="JUnit.CarTest.shouldThrowRuntimeExceptionWhenPassengerNumberGreaterThen5" />
-        <item itemvalue="JUnit.CarTest.shouldReturnCarName" />
-        <item itemvalue="JUnit.CarTest.shouldReturnObjectWhenPassedAllArgConstructor" />
+        <item itemvalue="JUnit.TrackTest.getLength" />
+        <item itemvalue="JUnit.TrackTest.getTransports" />
+        <item itemvalue="JUnit.TrackTest.addTransport_ShouldAddTransport" />
+        <item itemvalue="JUnit.TrackTest.addTransport_ShouldThrowRuntimeException_WhenAlreadyContainsTransport" />
+        <item itemvalue="JUnit.TrackTest.addTransportShouldThrowRuntimeExceptionWhenAlreadyContainsTransport" />
       </list>
     </recent_temporary>
   </component>
@@ -154,20 +185,47 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1673857541950</updated>
-      <workItem from="1673857545172" duration="25184000" />
+      <workItem from="1673857545172" duration="27833000" />
+      <workItem from="1674046977914" duration="3139000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/domain/Race.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/defers/domain/Race.java</url>
           <line>30</line>
           <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/defers/domain/TrackTest.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/com/defers/domain/TrackTest.java</url>
+          <line>7</line>
+          <properties class="com.defers.domain.TrackTest">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

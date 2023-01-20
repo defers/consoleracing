@@ -1,4 +1,4 @@
-package domain;
+package com.defers.domain;
 
 import lombok.Data;
 import lombok.EqualsAndHashCode;
@@ -18,5 +18,4 @@ public class Car extends Transport {
         }
         this.passengersNumber = passengersNumber;
     }
-
 }

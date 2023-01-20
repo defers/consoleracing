@@ -1,4 +1,4 @@
-package domain;
+package com.defers.domain;
 
 import lombok.Data;
 

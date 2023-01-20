@@ -1,6 +1,6 @@
 package com.defers;
 
-import domain.*;
+import com.defers.domain.*;
 
 public class App 
 {
